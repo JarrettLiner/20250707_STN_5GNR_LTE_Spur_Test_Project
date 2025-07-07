@@ -1,0 +1,76 @@
+[
+  {
+    "test_set": 1,
+    "type": "SpurSearch",
+    "fundamental_frequency_hz": 2430000000.0,
+    "rbw_hz": 20000.0,
+    "spur_limit_dbm": -122,
+    "power_dbm": -70,
+    "spurs": [
+      {
+        "frequency_hz": 1430900000.0,
+        "power_dbm": -115.982208252
+      },
+      {
+        "frequency_hz": 1930000000.0,
+        "power_dbm": -91.5224456787
+      },
+      {
+        "frequency_hz": 3030200000.0,
+        "power_dbm": -96.6211471558
+      },
+      {
+        "frequency_hz": 3429100000.0,
+        "power_dbm": -119.943527222
+      },
+      {
+        "frequency_hz": 3962900000.0,
+        "power_dbm": -121.326766968
+      }
+    ],
+    "config": "2.430GHz_Spur_RBW0.020MHz_Limit-122.00dBm",
+    "timings": {
+      "VSG_config": 4.155150400009006,
+      "VSA_config": 0.1969563999446109,
+      "measure": 4.436189500032924,
+      "get_results": 0.05880889995023608
+    }
+  },
+  {
+    "test_set": 2,
+    "type": "SpurSearch",
+    "fundamental_frequency_hz": 2440000000.0,
+    "rbw_hz": 20000.0,
+    "spur_limit_dbm": -122,
+    "power_dbm": -70,
+    "spurs": [
+      {
+        "frequency_hz": 1440400000.0,
+        "power_dbm": -115.957214355
+      },
+      {
+        "frequency_hz": 1939700000.0,
+        "power_dbm": -91.5772171021
+      },
+      {
+        "frequency_hz": 3040900000.0,
+        "power_dbm": -96.6602783203
+      },
+      {
+        "frequency_hz": 3439600000.0,
+        "power_dbm": -119.843536377
+      },
+      {
+        "frequency_hz": 3915200000.0,
+        "power_dbm": -121.464889526
+      }
+    ],
+    "config": "2.440GHz_Spur_RBW0.020MHz_Limit-122.00dBm",
+    "timings": {
+      "VSG_config": 3.8729577000485733,
+      "VSA_config": 0.19355419999919832,
+      "measure": 4.419875300023705,
+      "get_results": 0.0460570000577718
+    }
+  }
+]
